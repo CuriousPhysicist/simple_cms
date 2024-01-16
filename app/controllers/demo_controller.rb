@@ -15,6 +15,6 @@ class DemoController < ApplicationController
   end
 
   def lynda
-    redirect_to('http://lynda.com')
+    redirect_to('http://lynda.com', allow_other_host: true)
   end
 end
