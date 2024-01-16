@@ -13,4 +13,8 @@ class DemoController < ApplicationController
   def other_hello
     redirect_to(action: 'index')
   end
+
+  def lynda
+    redirect_to('http://lynda.com')
+  end
 end

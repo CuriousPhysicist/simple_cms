@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'demo/index'
   get 'demo/hello'
   get 'demo/other_hello'
+  get 'demo/lynda'
   # get ':controller(/:action(/:id))'
   # This dynamic default route will be depricated in Rails 7.2 ... do not use
   #
